@@ -1,0 +1,30 @@
+.app{
+  margin:0;
+  padding:0;
+ display:flex;
+}
+.leftPanel{
+  flex:30;
+ border:1px solid black;
+  padding :30px;
+}
+.rightPanel{
+ flex:70;
+  display: flex;
+  flex-direction: column;
+  border:1px solid black;
+  padding: 30px;
+}
+.rightPanel .upper
+{
+  border:1px solid black;
+  padding :30px;
+  flex:20;
+}
+.rightPanel .down
+{
+   border:1px solid black;
+  padding:30px;
+  height:80;
+}
+
